@@ -1,12 +1,32 @@
+// TODO: Auto-generated Javadoc
+/**
+ * The Enum TipoBaraja.
+ */
 public enum TipoBaraja {
-	HISPANA(0),POKER(1);
 	
+	/** The hispana. */
+	HISPANA(0),
+/** The poker. */
+POKER(1);
+	
+	/** The numeros. Almacena Numeros */
 	public final String[] NUMEROS;
+	
+	/** The palos. Almacena PALOS*/
 	public final String[] PALOS;
+	
+	/** The numero de cartas. Numero de Cartas */
 	public final int NUMERO_DE_CARTAS;
+	
+	/** The cartas por palo. Cartas por Palo */
 	public final int CARTAS_POR_PALO;
 
 	
+	/**
+	 * Inicializamos las variables 
+	 *
+	 * @param tipo the tipo
+	 */
 	private TipoBaraja(int tipo) {
 		switch(tipo) {
 		case 0:

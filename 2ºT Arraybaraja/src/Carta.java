@@ -28,7 +28,7 @@ public class Carta {
 	}
 	
 	/* (non-Javadoc)
-	 * @see java.lang.Object#toString() referencia a otro método de la clase
+	 * @see java.lang.Object#toString() referencia a otro metodo de la clase
 	 */
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
@@ -39,7 +39,7 @@ public class Carta {
 	/**
 	 * Gets the numero.
 	 *
-	 * @return devuelve el número de carta
+	 * @return devuelve el numero de carta
 	 */
 	public String getNumero() {
 		return numero;

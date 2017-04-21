@@ -29,7 +29,7 @@ public class Baraja {
 	/**
 	 * Instantiates a new baraja.
 	 *
-	 * @param tipo the tipo. Descripción del método para ordernar la baraja
+	 * @param tipo the tipo. Descripcion del metodo para ordernar la baraja
 	 */
 	public Baraja(TipoBaraja tipo) {
 		this.tipo = tipo;
@@ -90,7 +90,7 @@ public class Baraja {
 	}
 	
 	/**
-	 * obtiene la posición de la carta en la baraja.
+	 * obtiene la posicion de la carta en la baraja.
 	 *
 	 * @param id the id
 	 * @return the carta por identificador
